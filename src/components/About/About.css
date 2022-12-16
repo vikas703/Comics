@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Erica+One&family=Overpass:wght@900&family=Poppins:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap');
+
+.About{
+    width: 100%;
+    height: auto;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0e9d2;
+    font-family: 'Courgette', cursive;
+    font-family: 'Erica One', cursive;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+/*-----Whovr-------*/
+
+.Whovr{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Whovr_text1 h1 {
+    font-size: 40px;
+}
+
+
+.Whovr_text1 h1 b{
+    color: #FF0000;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.Whovr_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Whovr_img::after{
+    content: 'WHO WE ARE!';
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    transform: rotate(10deg);
+    left: 70px;
+}
+.cloud{
+    width: 250px;
+    transform: rotate(10deg);
+}
+
+/*-----Numbers-----*/
+
+.In_numbers{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.In_numbers h1{
+    text-shadow: 1.5px 1.5px black;
+}
+.In_numbers p{
+    opacity: 0.4;
+}
+
+/*------Scroll-Text---------*/
+
+.scroll_text{
+    position: relative;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.scroll{
+    width: 100%;
+    display: flex;
+}
+.scroll1{
+    width: 100%;
+    display: flex;
+}
+
+.scroll div{
+    background-color: #FF0000;
+    color: transparent;
+    -webkit-text-stroke: 0.3px #f0e9d2;
+    font-size: 2em;
+    white-space: nowrap;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: animate 40s linear infinite;
+    animation-delay: -40s;
+}
+
+.scroll1 div{
+    background-color: black;
+    color: #f0e9d2;
+    font-size: 2em;
+    white-space: nowrap;
+    font-weight: 900;
+    text-transform: uppercase;
+    animation: animate1 40s linear infinite;
+    animation-delay: -20s;
+}
+
+.scroll.text1 {
+    transform: rotate(-4deg) ;
+}
+
+.scroll1.text2 {
+    transform: rotate(4deg) ;
+}
+
+
+
+@keyframes animate{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animate1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+
+}
+
+@media  screen and (max-width: 900px){
+    
+.Whovr{
+    flex-direction: column;
+}
+
+.Whovr_text1 h1 {
+    font-size: 30px;
+}
+.cloud{
+    width: 230px;
+}
+
+
+
+
+}
+
+@media  screen and (max-width: 600px){
+    .Whovr_text1 h1 {
+        font-size: 24px;
+    }
+    .Whovr_img::after{
+    left: 63px;
+    }
+    .cloud{
+        width: 200px;
+    }
+    .In_numbers{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+    }
+    
+    .In_numbers h1{
+        font-size: 20px;
+        text-shadow: 1.5px 1.5px black;
+    }
+    .In_numbers h3{
+        font-size: 12px;
+    }
+    .In_numbers p{
+        font-size: 10px;
+        opacity: 0.4;
+    }
+    .scroll div{
+        font-size: 1.2em;
+    }
+    .scroll1 div{
+        font-size: 1.2em;
+    }
+
+}

@@ -1,0 +1,111 @@
+.products{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #D6E4E5;
+}
+
+.product_heading{
+    font-size: 46px;
+    font-weight: bold;
+}
+.product_heading b{
+    color: #FF0000;
+    text-shadow: 2px 2px #FF0000;
+}
+
+.product_items{
+    margin-top: 1rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+.card{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_img_back{
+    background-color: aqua;
+    width:  220px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-5deg);
+    border-radius: 10px;
+    background: #D6E4E5;
+    box-shadow:  20px 20px 60px #b6c2c3,
+                -20px -20px 60px #f6ffff;
+}
+
+.product_img{
+    max-width: 200px;
+    transition: 0.6s;
+
+}
+.product_img:hover{
+    max-width: 230px;
+}
+
+.product_names{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn1{
+    padding: 10px 30px;
+    background-color: black;
+    color: #ffff;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn1:active{
+    transform: translateY(2px);
+}
+
+
+
+@media only screen and (max-width: 1024px){
+    .product_items{
+        margin-top: 1rem;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .product_items{
+        margin-top: 1rem;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 2rem;
+    }
+
+}

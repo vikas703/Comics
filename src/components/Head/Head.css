@@ -1,0 +1,142 @@
+.head{
+    background-color: #FFFFD0;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+/*-----Text-----*/
+
+.In_Text{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 40px;
+
+}
+.text{
+    text-align: center;
+}
+.In_Text h1{
+    text-shadow: 4px 4px #FF0000;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+.In_Text h3{
+    text-shadow: 2px 2px #FF0000;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: -4rem;
+
+}
+
+.thunder{
+    width: 100px;
+    margin-bottom: 3rem;
+    transform: rotate(0deg);
+}
+
+.thunder:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+.thunder1{
+    width: 200px;
+    transform: rotate(-170deg);
+}
+.thunder1:hover{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:2px; top:0px;}
+    50%  { left:5px; right:5px;}
+    75%  { left:0px; right:2px;}
+    100% { left:0px; top:0px;}
+  }
+
+
+
+/*---img------*/
+
+.Images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Images1{
+    width: 200px;
+
+}
+
+
+@media only screen and (max-width: 1024px){
+    .Images1{
+        width: 140px;
+    
+    }
+    .In_Text h1{
+        text-shadow: 3px 3px #FF0000;
+        font-size: 80px;
+    }
+    
+    .In_Text h3{
+        font-size: 48px;
+        margin-top: -4rem;
+    
+    }
+    
+    .thunder{
+        width: 90px;
+        margin-bottom: 3rem;
+    }
+    
+    .thunder1{
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .Images1{
+        width: 78px;
+    }
+    .In_Text{
+        gap: 10px;
+    
+    }
+    .In_Text h1{
+        text-shadow: 3px 3px #FF0000;
+        font-size: 60px;
+    }
+    
+    .In_Text h3{
+        font-size: 28px;
+        margin-top: -2rem;
+    
+    }
+    
+    .thunder{
+        width: 60px;
+        margin-bottom: 3rem;
+    }
+    
+    .thunder1{
+        width: 110px;
+    }
+}

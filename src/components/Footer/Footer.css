@@ -1,0 +1,126 @@
+.Footer{
+    background-color: #FFFFD0;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.spiderman{
+    width: 300px;
+
+}
+.footer2 h1{
+    font-size: 55px;
+    text-shadow: 2px 2px #FF0000;
+}
+.footer2 h1 b{
+    color: #FF0000;
+}
+
+.footer_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer_btns input {
+    width: 200px;
+    height: 23px;
+    padding: 10px 25px;
+    background-color: #f0e9d2;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+
+.footer_btns button{
+    padding: 15px 30px;
+    background-color: black;
+    color: #ffff;
+    font-size: 11px;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.footer_btns button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.final_footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    padding: 30px;
+    grid-gap: 3rem;
+}
+
+.text1 h2{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.text1 p {
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.text1 b {
+    font-size: 11px;
+}
+
+
+@media  screen and (max-width: 1024px){
+    .spiderman{
+        width: 250px;
+    
+    }
+    .footer2 h1{
+        font-size: 45px;
+        text-shadow: 2px 2px #FF0000;
+    }    
+    .final_footer{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 2rem;
+    }
+}
+
+@media  screen and (max-width: 600px){
+    .footer2{
+        flex-direction: column;
+    }
+    .spiderman{
+        width: 200px;
+    
+    }
+    .footer2 h1{
+        font-size: 36px;
+        text-shadow: 2px 2px #FF0000;
+    }    
+    .final_footer{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1rem;
+    }
+    .footer_btns input {
+        width: 130px;
+        height: 20px;
+        padding: 9px 22px;
+    }
+    .footer_btns button{
+        padding: 15px 30px;
+    }
+}
