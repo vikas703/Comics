@@ -15,7 +15,7 @@ const Header = ({cartItems}) => {
     <header className='header'>
     <div className='nav_heading'>
     <h1>
-    <Link to='/' className='none1'>
+    <Link to='/product' className='none1'>
     COMICS.
     </Link>
     </h1>
@@ -30,7 +30,7 @@ const Header = ({cartItems}) => {
     <a href='#about' className='none' >ABOUT</a>
     </span>
     <span>
-    <Link to='/' className='none' >COMICS</Link>
+    <a href='#product' className='none' >COMICS</a>
     </span>
     <button className='nav_btn nav_close_btn' onClick={showNavbar}><FaTimes/>  </button>
 

@@ -20,7 +20,7 @@ const Cart = ({cartItems , handleAddProduct , handleRemoveProduct , handleCartCl
     {cartItems.length === 0 && 
       <div className='empty_cart_img'>
       <img className='emptycart' src={empty} alt='cart' />
-      <Link to='/' className='goback_link' > Gone Back to Comics</Link>
+      <Link to='/product' className='goback_link' > Gone Back to Comics</Link>
       </div>
     }
     <div className='main_cart'>

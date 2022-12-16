@@ -33,7 +33,7 @@ const ScrollText = () => {
    
     </div>
     <div className='clickme'> 
-    <button className='clickme_btn'><Link to='/' className='clickme_link' >Click to Shop.</Link> </button>
+    <button className='clickme_btn'><Link to='/product' className='clickme_link' >Click to Shop.</Link> </button>
     </div>
     </div>
   )

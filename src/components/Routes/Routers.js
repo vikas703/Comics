@@ -14,7 +14,7 @@ const Routers = ({productItems , cartItems , handleAddProduct , handleRemoveProd
     <Head  />
     <About />
       <Routes>
-      <Route path='/' exact element={<Products productItems={productItems} handleAddProduct={handleAddProduct} />} />
+      <Route path='/product' exact element={<Products productItems={productItems} handleAddProduct={handleAddProduct} />} />
       <Route path='/cart'  element={<Cart cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClear={handleCartClear} />} />
       </Routes>
       <Footer />
