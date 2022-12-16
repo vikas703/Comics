@@ -4,15 +4,17 @@ import ironM from '../../assets/ironM.png';
 import capM from '../../assets/capM.png';
 import warM from '../../assets/warM.png';
 import hulk from '../../assets/hulk.png';
+import thanos from '../../assets/thanos2.png';
+import avengers from '../../assets/avengers.png';
+
 
 const Images = () => {
   return (
     <div className='Images'>
-    <img src={warM} alt='all'  className='Images1'/>
-    <img src={spider} alt='all'  className='Images1'/>
-    <img src={ironM} alt='all'  className='Images1'/>
-    <img src={capM} alt='all'  className='Images1'/>
-    <img src={hulk} alt='all'  className='Images1'/>
+   
+    <img src={avengers} alt='all'  className='Images1'/>
+    <img src={thanos} alt='all'  className='Images1'/>
+
     </div>
   )
 }

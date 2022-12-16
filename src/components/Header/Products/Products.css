@@ -97,6 +97,9 @@
 }
 
 @media only screen and (max-width: 600px){
+    .product_heading{
+        font-size: 38px;
+    }
     .product_items{
         margin-top: 1rem;
         width: 100%;

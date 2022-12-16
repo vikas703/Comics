@@ -45,6 +45,7 @@ function App() {
     handleRemoveProduct={handleRemoveProduct}
     handleCartClear={handleCartClear}
     />
+    
     </Router>
     </div>
   );

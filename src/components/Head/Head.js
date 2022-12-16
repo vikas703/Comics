@@ -7,8 +7,6 @@ import Text from './Text';
 const Head = () => {
   return (
     <div className='head'>
-      <div className='Nav'>
-      </div>
 
       <div className='Text'>
       <Text />

@@ -1,6 +1,5 @@
 .head{
     background-color: #FFFFD0;
-    height: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -76,21 +75,19 @@
 /*---img------*/
 
 .Images{
+    width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .Images1{
-    width: 200px;
-
+    max-height: 450px;
+    max-width: 550px;
 }
 
 
 @media only screen and (max-width: 1024px){
-    .Images1{
-        width: 140px;
     
-    }
     .In_Text h1{
         text-shadow: 3px 3px #FF0000;
         font-size: 80px;
@@ -113,12 +110,22 @@
 }
 
 @media only screen and (max-width: 600px){
+    .head{
+        min-height: 50vh;
+
+    }
+    .Images{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     .Images1{
-        width: 78px;
+        max-height: 200px;
+        max-width: 200px;
     }
     .In_Text{
-        gap: 10px;
-    
+        gap: 1px;
     }
     .In_Text h1{
         text-shadow: 3px 3px #FF0000;
@@ -132,11 +139,11 @@
     }
     
     .thunder{
-        width: 60px;
+        width: 50px;
         margin-bottom: 3rem;
     }
     
     .thunder1{
-        width: 110px;
+        width: 90px;
     }
 }
