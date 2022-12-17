@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Comics/static/css/main.d8ba0062.css",
-    "main.js": "/Comics/static/js/main.db6cea35.js",
+    "main.css": "/Comics/static/css/main.ed57da2d.css",
+    "main.js": "/Comics/static/js/main.705925aa.js",
     "static/js/787.cb4b6cb6.chunk.js": "/Comics/static/js/787.cb4b6cb6.chunk.js",
+    "static/media/Marvel.mp4": "/Comics/static/media/Marvel.013f39f1dabc09b4f3b0.mp4",
     "static/media/capM.png": "/Comics/static/media/capM.fcdd96c2e663aeab1bde.png",
     "static/media/spider4.png": "/Comics/static/media/spider4.38da94df7853774bc8f3.png",
     "static/media/avengers.png": "/Comics/static/media/avengers.70e795bd2c493dc7ecc4.png",
@@ -22,12 +23,12 @@
     "static/media/hulkC.jpg": "/Comics/static/media/hulkC.0e0b2a2cd6ce5af403b2.jpg",
     "static/media/empty.png": "/Comics/static/media/empty.3fb2f85a27ef1e5245ad.png",
     "index.html": "/Comics/index.html",
-    "main.d8ba0062.css.map": "/Comics/static/css/main.d8ba0062.css.map",
-    "main.db6cea35.js.map": "/Comics/static/js/main.db6cea35.js.map",
+    "main.ed57da2d.css.map": "/Comics/static/css/main.ed57da2d.css.map",
+    "main.705925aa.js.map": "/Comics/static/js/main.705925aa.js.map",
     "787.cb4b6cb6.chunk.js.map": "/Comics/static/js/787.cb4b6cb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8ba0062.css",
-    "static/js/main.db6cea35.js"
+    "static/css/main.ed57da2d.css",
+    "static/js/main.705925aa.js"
   ]
 }
