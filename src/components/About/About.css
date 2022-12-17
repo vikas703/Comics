@@ -99,7 +99,7 @@
     font-weight: 900;
     text-transform: uppercase;
     animation: animate 40s linear infinite;
-    animation-delay: -40s;
+    animation-delay: -20s;
 }
 
 .scroll1 div{
@@ -114,37 +114,14 @@
 }
 
 .scroll.text1 {
-    transform: rotate(-4deg) ;
+    transform: rotate(-5deg) ;
 }
 
 .scroll1.text2 {
-    transform: rotate(4deg) ;
+    transform: rotate(5deg) ;
 }
 
-.clickme{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-}
-.clickme_btn{
-    padding: 10px 20px;
-    background-color: black;
-    border-radius: 8px;
-    cursor: pointer;
 
-}
-.clickme_link{
-    text-decoration: none;
-    color: #f0e9d2;
-}
-.clickme_btn:hover{
-    background-color: transparent;
-}
-.clickme_link:hover{
-    color: black;
-
-}
 
 
 @keyframes animate{
@@ -221,10 +198,10 @@
         height: 12vh;
     }
     .scroll div{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     .scroll1 div{
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
 }

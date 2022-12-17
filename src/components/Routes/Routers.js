@@ -6,6 +6,7 @@ import Products from '../Header/Products/Products';
 import Head from '../Head/Head';
 import About from '../About/About';
 import Footer from '../Footer/Footer';
+import Video from '../Video/Video'
 
 const Routers = ({productItems , cartItems , handleAddProduct , handleRemoveProduct , handleCartClear}) => {
   
@@ -13,10 +14,11 @@ const Routers = ({productItems , cartItems , handleAddProduct , handleRemoveProd
     <div className='Routers'>
     <Head  />
     <About />
+    <Products productItems={productItems} handleAddProduct={handleAddProduct} />
       <Routes>
-      <Route path='/product' exact element={<Products productItems={productItems} handleAddProduct={handleAddProduct} />} />
       <Route path='/cart'  element={<Cart cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} handleCartClear={handleCartClear} />} />
       </Routes>
+      <Video />
       <Footer />
     </div>
   )

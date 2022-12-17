@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 const ScrollText = () => {
   return (
-    <div>
     <div className='scroll_text'>
     <div className='scroll text1' >
     <div>
@@ -32,10 +31,7 @@ const ScrollText = () => {
     </div>
    
     </div>
-    <div className='clickme'> 
-    <button className='clickme_btn'><Link to='/product' className='clickme_link' >Click to Shop.</Link> </button>
-    </div>
-    </div>
+    
   )
 }
 

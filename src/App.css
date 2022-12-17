@@ -11,7 +11,3 @@
     transition: ease-in-out;
 
 }
-
-::-webkit-scrollbar{
-    scroll-behavior: smooth;
-}

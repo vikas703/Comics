@@ -15,22 +15,21 @@ const Header = ({cartItems}) => {
     <header className='header'>
     <div className='nav_heading'>
     <h1>
-    <Link to='/product' className='none1'>
-    COMICS.
-    </Link>
+    <a href='#product' className='none1'>COMICS.</a>
+    
     </h1>
     </div>
 
 
     <div className='header1' ref={NavRef}>
     <span>
-    <a href='#' className='none' >HOME</a>
+    <a href='#' className='none' onClick={showNavbar}>HOME</a>
     </span>
     <span>
-    <a href='#about' className='none' >ABOUT</a>
+    <a href='#about' className='none'onClick={showNavbar} >ABOUT</a>
     </span>
     <span>
-    <a href='#product' className='none' >COMICS</a>
+    <a href='#product' className='none' onClick={showNavbar} >COMICS</a>
     </span>
     <button className='nav_btn nav_close_btn' onClick={showNavbar}><FaTimes/>  </button>
 
