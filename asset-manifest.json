@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Comics/static/css/main.ed57da2d.css",
-    "main.js": "/Comics/static/js/main.705925aa.js",
+    "main.css": "/Comics/static/css/main.ab2f9ea2.css",
+    "main.js": "/Comics/static/js/main.a2ac28c6.js",
     "static/js/787.cb4b6cb6.chunk.js": "/Comics/static/js/787.cb4b6cb6.chunk.js",
     "static/media/Marvel.mp4": "/Comics/static/media/Marvel.013f39f1dabc09b4f3b0.mp4",
     "static/media/capM.png": "/Comics/static/media/capM.fcdd96c2e663aeab1bde.png",
@@ -18,17 +18,18 @@
     "static/media/cloud.png": "/Comics/static/media/cloud.210ca6ad5f4912462933.png",
     "static/media/hulk.png": "/Comics/static/media/hulk.ac4a42b2a8a2b222aa19.png",
     "static/media/ironC.jpg": "/Comics/static/media/ironC.af9360be8c304e27972d.jpg",
+    "static/media/deadpoolC.jpg": "/Comics/static/media/deadpoolC.3237a70d768897862970.jpg",
     "static/media/thorC.jpg": "/Comics/static/media/thorC.2dcebd997409b961126d.jpg",
     "static/media/spiderC.jpg": "/Comics/static/media/spiderC.69e4ce7d2d7b54eb346f.jpg",
     "static/media/hulkC.jpg": "/Comics/static/media/hulkC.0e0b2a2cd6ce5af403b2.jpg",
     "static/media/empty.png": "/Comics/static/media/empty.3fb2f85a27ef1e5245ad.png",
     "index.html": "/Comics/index.html",
-    "main.ed57da2d.css.map": "/Comics/static/css/main.ed57da2d.css.map",
-    "main.705925aa.js.map": "/Comics/static/js/main.705925aa.js.map",
+    "main.ab2f9ea2.css.map": "/Comics/static/css/main.ab2f9ea2.css.map",
+    "main.a2ac28c6.js.map": "/Comics/static/js/main.a2ac28c6.js.map",
     "787.cb4b6cb6.chunk.js.map": "/Comics/static/js/787.cb4b6cb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed57da2d.css",
-    "static/js/main.705925aa.js"
+    "static/css/main.ab2f9ea2.css",
+    "static/js/main.a2ac28c6.js"
   ]
 }
