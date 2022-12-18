@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Routers.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Cart from '../Cart/Cart';
 import Products from '../Header/Products/Products';
 import Head from '../Head/Head';

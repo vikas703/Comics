@@ -3,12 +3,12 @@
 .About{
     width: 100%;
     height: auto;
-    min-height: 120vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    
     background-color: #f0e9d2;
     font-family: 'Courgette', cursive;
     font-family: 'Erica One', cursive;
@@ -157,10 +157,6 @@
 .cloud{
     width: 230px;
 }
-
-
-
-
 }
 
 @media  screen and (max-width: 600px){

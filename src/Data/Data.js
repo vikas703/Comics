@@ -6,6 +6,7 @@ import blackC from '../assets/blackC.webp';
 import capC from '../assets/capC.jpg';
 import spiderC1 from '../assets/spiderC1.jpg';
 import thorC from '../assets/thorC.jpg';
+import deadpoolC from '../assets/deadpoolC.jpg';
 
  const data = {
   productItems:[
@@ -56,6 +57,12 @@ import thorC from '../assets/thorC.jpg';
       "name": "THOR",
       "price": 195,
       "imgUrl": thorC
+    },
+    {
+      "id": 9,
+      "name": "DEADPOOL",
+      "price": 205,
+      "imgUrl": deadpoolC
     },
   ]
  }
