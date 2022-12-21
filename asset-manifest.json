@@ -1,22 +1,17 @@
 {
   "files": {
     "main.css": "/Comics/static/css/main.ab2f9ea2.css",
-    "main.js": "/Comics/static/js/main.a2ac28c6.js",
+    "main.js": "/Comics/static/js/main.8fefbc7c.js",
     "static/js/787.cb4b6cb6.chunk.js": "/Comics/static/js/787.cb4b6cb6.chunk.js",
     "static/media/Marvel.mp4": "/Comics/static/media/Marvel.013f39f1dabc09b4f3b0.mp4",
-    "static/media/capM.png": "/Comics/static/media/capM.fcdd96c2e663aeab1bde.png",
     "static/media/spider4.png": "/Comics/static/media/spider4.38da94df7853774bc8f3.png",
     "static/media/avengers.png": "/Comics/static/media/avengers.70e795bd2c493dc7ecc4.png",
-    "static/media/warM.png": "/Comics/static/media/warM.453291fb069c39d7e612.png",
     "static/media/spiderC1.jpg": "/Comics/static/media/spiderC1.05c9ad698712f05212fb.jpg",
     "static/media/venomC.jpg": "/Comics/static/media/venomC.36f698530e7cbe2ff04d.jpg",
     "static/media/capC.jpg": "/Comics/static/media/capC.961eacce35fae235af48.jpg",
-    "static/media/ironM.png": "/Comics/static/media/ironM.9df1e9abb31481d63e4e.png",
-    "static/media/spiderM.png": "/Comics/static/media/spiderM.d0379ba58b64c869701f.png",
     "static/media/thanos2.png": "/Comics/static/media/thanos2.0f93e55e0cc9b8fc2059.png",
     "static/media/blackC.webp": "/Comics/static/media/blackC.1b3a5d60ae46eb45a5d4.webp",
     "static/media/cloud.png": "/Comics/static/media/cloud.210ca6ad5f4912462933.png",
-    "static/media/hulk.png": "/Comics/static/media/hulk.ac4a42b2a8a2b222aa19.png",
     "static/media/ironC.jpg": "/Comics/static/media/ironC.af9360be8c304e27972d.jpg",
     "static/media/deadpoolC.jpg": "/Comics/static/media/deadpoolC.3237a70d768897862970.jpg",
     "static/media/thorC.jpg": "/Comics/static/media/thorC.2dcebd997409b961126d.jpg",
@@ -25,11 +20,11 @@
     "static/media/empty.png": "/Comics/static/media/empty.3fb2f85a27ef1e5245ad.png",
     "index.html": "/Comics/index.html",
     "main.ab2f9ea2.css.map": "/Comics/static/css/main.ab2f9ea2.css.map",
-    "main.a2ac28c6.js.map": "/Comics/static/js/main.a2ac28c6.js.map",
+    "main.8fefbc7c.js.map": "/Comics/static/js/main.8fefbc7c.js.map",
     "787.cb4b6cb6.chunk.js.map": "/Comics/static/js/787.cb4b6cb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab2f9ea2.css",
-    "static/js/main.a2ac28c6.js"
+    "static/js/main.8fefbc7c.js"
   ]
 }
